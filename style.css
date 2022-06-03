@@ -1,0 +1,20 @@
+body{
+    background: blueviolet;
+}
+#heading{
+    text-align: center;
+    font-size: xxx-large;
+}
+.container{
+    text-align: center;
+}
+.addBtn{
+    color: aliceblue;
+    background: red;
+    height: 30px;
+}
+.delAllBtn{
+    background: green;
+    color: aliceblue;
+    height: 30px;
+}

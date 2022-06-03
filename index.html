@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <title>ToDo Task Application</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- CSS only -->
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+</head>
+<body>
+        <h2 id="heading">Todo Application</h2>
+        <div style="text-align: center;">
+            <label for="task" style="font-size: xx-large;">Todo Task:</label>
+            <input type="text" id="task" name="task" style="width: 25%; height: 25px;">
+        </div>
+        <br>
+        <div style="text-align: center;">              
+            <button onclick="addTask()" class="addBtn"><b>Add Task</b></button>
+            <button onclick="deleteAllTasks()" class="delAllBtn"><b>Delete All</b></button>
+        </div>
+        
+        <div id="content">
+            <table id="table" cellpadding="3px">
+            </table>
+            
+        </div>
+    </div>
+
+   
+</body>
+   <script src="app.js"></script>
+   <!-- JavaScript Bundle with Popper -->
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+   </html>
+</html>
